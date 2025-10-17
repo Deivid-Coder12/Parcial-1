@@ -45,6 +45,7 @@ eliminar_libros() → Elimina libros por categoría o todos
 
 leer_libros() → Carga los libros desde Firebase
 
+actualizar_libros -> actualiza un libro especifico
 👤 Usuario
 
 Administra los usuarios registrados en la biblioteca.
@@ -56,6 +57,8 @@ mostrar_info() → Muestra los datos del usuario actual
 eliminar_usuarios() → Elimina todos los usuarios de Firebase
 
 leer_usuarios() → Lista todos los usuarios registrados
+
+actualizar_usuario _> actualiza un usuario en especifico
 
 🧾 Menu
 
