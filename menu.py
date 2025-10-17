@@ -7,7 +7,7 @@ class Menu:
         self.biblioteca = Biblioteca()
 
     def mostrar_menu(self):
-        print("Ingrese el número según la opción:")
+        print("Ingrese el número según la opción:")#opciones en print
         print("1. Agregar libro de acción")
         print("2. Agregar libro de romance")
         print("3. Agregar libro de terror")
@@ -21,7 +21,7 @@ class Menu:
 
         opcion = int(input("Seleccione una opción: "))
 
-        if opcion == 1:
+        if opcion == 1:#condicionales que segun lo que se elija, realiza un metodo o otro
             libro = input("Ingrese el nombre del libro de Acción: ")
             self.biblioteca.agregar_libro(libro, "accion")
 
